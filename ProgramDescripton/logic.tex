@@ -1,16 +1,18 @@
 \section{Логика работы программы} \label{logic}
 \subsection{Структурирование программы по Задачам}
-Работа СПО «Кама-Надир» структурирована по решаемым задачам согласно  схеме на Рис.~\ref{fig:general_scheme}
+Работа СПО «Кама-Надир» структурирована по решаемым задачам согласно  схеме на Рис.~\ref{fig:general_scheme}.
 \begin{figure}[H]
     \centering
-    \includegraphics{images/general_scheme.png}
+    \includegraphics[width=1.0\linewidth]{images/general_scheme.png}
+    \caption{Задачи программы}
     \label{fig:general_scheme}
 \end{figure}
 \subsection{Задача формирования сигналов FS}
-Реализует следующие функции согласно схеме на
+Реализует следующие функции согласно схеме на Рис.~\ref{fig:FS}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{images/FS.png}
+    \includegraphics[width=0.8\linewidth]{images/FS.png}
+    \caption{Задача FS}
     \label{fig:FS}
 \end{figure}
 \begin{itemize}
@@ -27,4 +29,16 @@
 \item невыставок  dxy, dxz, dyx, dyz, dzx, dzy, dаxy, dаxz, dаyx
 \item оценки дрейфов dpf, dqf, drf
     \end{itemize}
+\end{itemize}
+\subsubsection{Входные и выходные данные задачи FS}
+Входная информация
+\begin{itemize}
+    \item q1, q2, q3, w1,w2,w3- из задачи  VOG-приема сигналов БЧЭ
+    \item pm1a,qm1a, rm1a, wx0, wy0, wz0, kwx, kwy, kwz, dxy, dxz, dyx, dyz, dzx, dzy, daxy, daxz, dayx, dayz, dazx, dazy - из файла данных kam.dat
+    \item dpf, dqf, drf- из задачи  FK
+\end{itemize}
+Выходная информация
+\begin{itemize}
+    \item qx1, qy1, qz1- в задачу PK
+    \item qx1,qy1,qz1,wx1,wy1,wz1-- в задачу PS
 \end{itemize}
