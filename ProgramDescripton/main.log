@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  27 OCT 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  27 OCT 2020 16:10
 entering extended mode
 **c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
 (c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
@@ -450,17 +450,17 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
 
 [8 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/general_scheme.png>]
 
-LaTeX Warning: File `images/FS(TO1n).png' not found on input line 13.
+LaTeX Warning: File `images/TO1n/FS(TO1n).png' not found on input line 13.
 
 
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:13: Package pdftex.def Error: File `images/FS(TO1n).png' not found: using draft setting.
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:13: Package pdftex.def Error: File `images/TO1n/FS(TO1n).png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13     \includegraphics{images/FS(TO1n).png}
-                                              
+l.13 ...\includegraphics{images/TO1n/FS(TO1n).png}
+                                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -586,15 +586,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8375 strings out of 480202
- 127354 string characters out of 2873113
+ 8376 strings out of 480202
+ 127441 string characters out of 2873113
  425023 words of memory out of 3000000
  24781 multiletter control sequences out of 15000+200000
  548670 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,78p,712b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (13 pages, 238285 bytes).
+Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (13 pages, 238287 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
