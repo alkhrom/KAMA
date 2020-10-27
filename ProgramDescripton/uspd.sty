@@ -1,0 +1,511 @@
+%=======================================================================
+% Changelog
+% 2020/04/29 Добавлена карточка учета
+% 2020/05/02 Команда вывода содержания заменена на обратную (подавление 
+%            вывода содержания) + правка титульного
+%
+%=======================================================================
+
+% Используемые пакеты
+\RequirePackage{rotating}
+\RequirePackage{ifthen}
+\RequirePackage{longtable} % для спецификации и ведомости ЭД
+%=======================================================================
+
+% Определение базовых размеров
+\hoffset=-5.4mm
+\voffset=-20.4mm
+\marginparwidth=0mm
+\marginparsep=0mm
+\marginparpush=0mm
+\evensidemargin=0mm
+\oddsidemargin=0mm
+\topmargin=0mm
+\headheight=15mm
+\headsep=5mm
+\textwidth=180mm
+\textheight=247mm
+\footskip=10mm
+\setlength{\unitlength}{1mm}
+
+% Стиль листа учета изменений
+% (не используется)
+\def\ps@uspdliheadings{
+  \let\@oddfoot\@empty\let\@evenfoot\@empty
+  \def\@oddhead{\\{\rightmark}\\}
+  \def\@evenhead{\\{\leftmark}\\}
+  \let\@mkboth\@gobbletwo
+  \let\sectionmark\@gobble
+  \let\subsectionmark\@gobble
+}
+
+
+% Стиль листов утверждения
+\def\ps@uspdluheadings{
+  \def\@oddfoot{\\{Литера <<О>>}}
+  \def\@evenfoot{\\{Литера <<О>>}}
+  \let\@oddhead\@empty\let\@evenhead\@empty
+  \let\@mkboth\@gobbletwo
+  \let\sectionmark\@gobble
+  \let\subsectionmark\@gobble
+}
+
+% Стиль  прочих листов
+\def\ps@uspdnormheadings{
+  \let\@oddfoot\@empty\let\@evenfoot\@empty
+  \def\@oddhead{
+  	\vbox{
+		\vbox{\hfil\thepage\hfil}
+		{\vskip 5mm}
+		\vbox{\hfil\rightmark\hfil}
+	}
+  }
+  \def\@evenhead{\\{\leftmark}\\}
+  \let\@mkboth\@gobbletwo
+  \let\sectionmark\@gobble
+  \let\subsectionmark\@gobble
+}
+
+% Стиль по-умолчанию
+\pagestyle{uspdnormheadings}
+%=======================================================================
+
+% Отрисовка страницы с штампом
+\newcommand\stamp[1]{{
+\newpage
+\noindent\begin{picture}(0,0)(0,0)
+\put(-12,-252){\framebox(12,145)}
+\put(-7,-252){\line(0,1){145}}
+\put(-12,-142){\line(1,0){12}}
+\put(-12,-167){\line(1,0){12}}
+\put(-12,-192){\line(1,0){12}}
+\put(-12,-227){\line(1,0){12}}
+\put(-11,-251){\begin{sideways}\parbox[t]{23mm}{\footnotesize  Инв. {\No} подп.}\end{sideways}}
+\put(-11,-226){\begin{sideways}\parbox[t]{33mm}{\footnotesize Подп. и дата}\end{sideways}}
+\put(-11,-191){\begin{sideways}\parbox[t]{23mm}{\footnotesize Взам инв. {\No}}\end{sideways}}
+\put(-11,-166){\begin{sideways}\parbox[t]{23mm}{\footnotesize Инв. {\No} дубл.}\end{sideways}}
+\put(-11,-141){\begin{sideways}\parbox[t]{33mm}{\footnotesize Подп. и дата}\end{sideways}}
+\end{picture}
+#1
+\newpage}}
+%-----------------------------------------------------------------------
+
+% Место для подписи
+\newcommand\signfield[1]{\underline{\phantom{ЖЖЖЖЖ}}~{#1}}
+%-----------------------------------------------------------------------
+
+% Место для даты
+\newcommand\datefield{<<\underline{\phantom{Ж}}>>~\underline{\phantom{ЖЖЖЖЖ}}~{\number\year}~г.}
+%-----------------------------------------------------------------------
+
+% Количество листов (для одного листа ничего не выводит)
+\newcommand\pagesfield[1]{\ifthenelse{\pageref{#1} > 1}{Листов \pageref{#1}}{}}
+%-----------------------------------------------------------------------
+
+% Лист утверждения
+\newcommand\LU[1]{
+\markboth{{#1}--ЛУ}{{#1}--ЛУ}
+\setcounter{page}{1}
+\thispagestyle{uspdluheadings}
+\stamp{\begin{center}
+
+% Поле 0, Гриф
+%{\noindent\hfill Совершенно секретно}
+
+% Поле 1, наименование минестерства
+
+\parbox{185mm}{\centering \textsf{ООО «МОРТЕХИНЖИНИРИНГ»}}
+
+
+% Поле 2, слева согласующие подписи заказчика, справа утверждение разработчика
+\begin{tabular}{p{70mm}cp{70mm}}
+& & \textbf{УТВЕРЖДАЮ} \\
+& & \\
+& & Генеральный директор \newline ООО «Мортехинжиниринг» \\
+& & \signfield{Р.Е.~Кореньков} \\
+& & \datefield \\
+\end{tabular}
+
+% Поле 3, наименование программы (прописными буквами), наименование и вид документа
+\vskip 10mm
+\begin{sffamily}
+\makeatletter
+\@title
+\makeatother
+\vskip 5mm
+{\large ЛИСТ УТВЕРЖДЕНИЯ}
+\end{sffamily}
+
+% Поле 4, обозначение документа и вида носителя данных
+\vskip 7mm
+\begin{sffamily}{{#1}--ЛУ}\end{sffamily} \\ %{\scriptsize (вид носителя данных)}
+
+% Поле 5, количество листов утверждения (для одного листа не заполняют)
+\vskip 7mm
+\begin{sffamily}\pagesfield{endlu}\end{sffamily}
+
+% Поле 6, справа подписи исполнителей и нормаконтроля, слева кто не поместился
+\vskip 7mm
+\begin{tabular}{p{70mm}cp{70mm}}
+ & & Пред\-ста\-ви\-те\-ли пред\-при\-я\-тия--раз\-ра\-бот\-чи\-ка  \\
+& & \\
+ & & Главный конструктор ЗАО «Мортехинжиниринг» \\
+ & & \signfield{А.В.~Гайдай} \\
+ & & \datefield \\
+& & \\
+& & Начальник отдела разработки ПО \\
+& & \signfield{А.М.~Сальников} \\
+& & \datefield \\
+\end{tabular}
+
+% Поле 7, год издания без слова "год" или "г"
+\vfill
+{{\number\year}}
+
+\end{center}\label{endlu}}}
+%-----------------------------------------------------------------------
+
+% Титульный лист
+\newcommand\TP[1]{
+\markboth{{#1}}{{#1}}
+\setcounter{page}{1}
+\thispagestyle{uspdluheadings}
+\stamp{\underline{УТВЕРЖДЕН}\\{{#1}--ЛУ}\begin{center}
+
+% Поле 1, заполняют по требованию заказчика
+%\parbox{185mm}{ 
+%\parbox{25mm}{ \includegraphics{pic/logo.png}}
+%\parbox{160mm}{ \textsf{ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО«МОРТЕХИНЖИНИРИНГ»}}
+%}
+
+% Поле 2, не заполняют
+\vskip 30mm
+
+% Поле 3, наименование программы (прописными буквами), наименование и вид документа
+\vskip 20mm
+\begin{sffamily}
+\makeatletter
+\@title
+\makeatother
+\end{sffamily}
+
+% Поле 4, обозначение документа и вида носителя данных
+\vskip 7mm
+\begin{sffamily}{{#1}}\end{sffamily} \\ %{\scriptsize (вид носителя данных)}
+
+% Поле 5, объем документа
+\vskip 7mm
+\begin{sffamily}\pagesfield{enddoc}\end{sffamily}
+
+% Поле 6, не заполняют
+\vskip 30mm
+
+% Поле 7, год издания без слова "год" или "г"
+\vfill
+{{\number\year}}
+\end{center}}}
+%-----------------------------------------------------------------------
+
+% Лист регистрации изменений
+\newcommand\uspd@LI{{
+\newpage
+%\thispagestyle{uspdliheadings}
+\noindent\begin{picture}(185,247)(0,0)
+\put(0,0){\line(0,1){247}}
+\put(8,0){\line(0,1){232}}
+\put(28,0){\line(0,1){232}}
+\put(48,0){\line(0,1){232}}
+\put(68,0){\line(0,1){232}}
+\put(88,0){\line(0,1){237}}
+\put(108,0){\line(0,1){237}}
+\put(133,0){\line(0,1){237}}
+\put(158,0){\line(0,1){237}}
+\put(173,0){\line(0,1){237}}
+\put(185,0){\line(0,1){247}}
+\put(0,247){\line(1,0){185}}
+\put(0,237){\line(1,0){185}}
+\put(0,232){\line(1,0){88}}
+\put(0,212){\line(1,0){185}}
+\put(0,0){\line(1,0){185}}
+\multiput(0,207)(0,-5){41}{\line(1,0){185}}
+\put(0,237){\makebox[185mm][c]{\raisebox{2\depth}{\Large Лист регистрации изменений}}}
+\put(0,232){\makebox[88mm][c]{\raisebox{1.5\depth}{\small Номера листов (страниц)}}}
+\put(0.5,227){\parbox[t]{7mm}{\small Изм}}
+\put(9,227){\parbox[t]{18mm}{\small из\-ме\-нён\-ных}}
+\put(29,227){\parbox[t]{18mm}{\small за\-ме\-нён\-ных}}
+\put(49,227){\parbox[t]{18mm}{\small но\-вых}}
+\put(69,227){\parbox[t]{18mm}{\small ан\-ну\-ли\-ро\-ван\-ных}}
+\put(89,232){\parbox[t]{18mm}{\small Всего листов (страниц) в докум}}
+\put(109,232){\parbox[t]{23mm}{\small {\No} документа}}
+\put(134,232){\parbox[t]{23mm}{\small Входящий {\No} сопроводительного докум и дата}}
+\put(159,232){\parbox[t]{13mm}{\small Подп}}
+\put(174,232){\parbox[t]{10mm}{\small Дата}}
+
+% Заполнение листа регистрации
+\put(0,207){\makebox(8,5){\small 2}} 	% Изм
+\put(8,207){\makebox(20,5){\small --}}	% № лист изменённых
+\put(28,207){\makebox(20,5){\small Все}}% № лист заменённых
+\put(48,207){\makebox(20,5){\small --}}	% № лист новых
+\put(68,207){\makebox(20,5){\small --}}	% № лист аннулированных
+\put(88,207){\makebox(20,5){\small --}}	% Всего листов в докум   (заполняентся, если есть аннулированные или новые листы)
+\put(108,207){\makebox(25,5){\footnotesize НПБИ.5080-16}}	% № документа
+\put(133,207){\makebox(25,5){\small --}}	% Входящий (для ЭД в соответсвии с ГОСТ 2.603)
+
+\label{enddoc}
+\end{picture}
+\newpage
+}}
+%-----------------------------------------------------------------------
+
+% Карточка учета (Форма 2а)
+\newcommand\uspd@FormII{
+% Сетка
+\put(0,0){\line(1,0){210}}
+\multiput(0,12)(0,5){18}{\line(1,0){210}}
+\put(0,109){\line(1,0){210}}
+\put(0,116){\line(1,0){210}}
+\put(0,123){\line(1,0){210}}
+\put(0,130){\line(1,0){210}}
+\put(0,148){\line(1,0){210}}
+\put(25,143){\line(1,0){20}}
+\put(25,105){\line(1,0){20}}
+\put(0,0){\line(0,1){148}}
+\put(25,116){\line(0,1){32}}
+\put(75,116){\line(0,1){14}}
+\put(105,116){\line(0,1){14}}
+\put(140,116){\line(0,1){32}}
+\put(156,116){\line(0,1){14}}
+\put(190,116){\line(0,1){7}}
+\put(45,12){\line(0,1){136}}
+\put(210,0){\line(0,1){148}}
+\put(10,12){\line(0,1){97}}
+\put(25,12){\line(0,1){97}}
+\put(35,12){\line(0,1){93}}
+\put(55,0){\line(0,1){109}}
+\put(125,0){\line(0,1){116}}
+\put(135,12){\line(0,1){97}}
+\put(175,12){\line(0,1){97}}
+\put(185,12){\line(0,1){97}}
+
+% Надписи
+\put(25,143){\makebox(20,5){\footnotesize Лист \phantom{ЖЖ}}}
+\put(25,139){\makebox(20,4){\footnotesize Продолж.}}
+\put(25,135){\makebox(20,4){\footnotesize на листе}}
+\put(0,123){\makebox(25,7){\footnotesize Подразд.}}
+\put(0,120){\makebox(25,3){\footnotesize Вид доку-}}
+\put(0,116){\makebox(25,3){\footnotesize мента}}
+\put(45,123){\makebox(30,7){\footnotesize Подл. на предпр.}}
+\put(45,116){\makebox(30,7){\footnotesize Инв. № \phantom{ЖЖ}}}
+\put(105,116){\makebox(35,7){\footnotesize Дата поступл. \phantom{ЖЖ}}}
+\put(140,123){\makebox(16,7){\footnotesize Формат}}
+\put(156,116){\makebox(34,7){\footnotesize Кол. листов}}
+\put(0,109){\makebox(45,7){\footnotesize Учет копий}}
+\put(45,109){\makebox(80,7){\footnotesize Применяемость}}
+\put(125,109){\makebox(85,7){\footnotesize Учет изменений}}
+\put(0,97){\makebox(10,12){\footnotesize Дата}}
+\put(10,103){\makebox(15,6){\footnotesize Осно-}}
+\put(10,97){\makebox(15,6){\footnotesize вание}}
+\put(25,105){\makebox(20,4){\scriptsize Кол.(№ экз.)}}
+\put(25,101){\makebox(10,4){\scriptsize Посту-}}
+\put(25,97){\makebox(10,4){\scriptsize пило}}
+\put(35,101){\makebox(10,4){\scriptsize Спи-}}
+\put(35,97){\makebox(10,4){\scriptsize сано}}
+\put(45,97){\makebox(10,12){\footnotesize Дата}}
+\put(55,97){\makebox(70,12){\footnotesize Обозначение}}
+\put(125,97){\makebox(10,12){\footnotesize Изм.}}
+\put(135,97){\makebox(40,12){\footnotesize № документа}}
+\put(175,105){\makebox(10,4){\footnotesize Дата}}
+\put(175,101){\makebox(10,4){\footnotesize внесе-}}
+\put(175,97){\makebox(10,4){\footnotesize ния}}
+\put(185,97){\makebox(25,12){\footnotesize Листы}}
+\put(0,0){\makebox(55,12){\footnotesize Технологический документ}}
+}
+%-----------------------------------------------------------------------
+
+% Блок для оборотной стороны карточки учета
+\newcommand\uspd@FormIIBackBlock{
+\put(0,15){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Дата}}
+\put(0,10){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Кол. экз.}}
+\put(0,5){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Основание}}
+\put(0,0){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Списано}}
+\multiput(0,5)(0,5){4}{\line(1,0){200}}
+}
+%-----------------------------------------------------------------------
+
+% Карточка учета (Форма 2а оборотная сторона)
+\newcommand\uspd@FormIIBack{
+% Формат
+\put(0,143){\makebox(210,5){\footnotesize Выдача копий}}
+\put(0,23){\begin{sideways}\makebox(125,10){\footnotesize Учтенные абоненты}\end{sideways}}
+\put(0,0){\begin{sideways}\makebox(23,5){\footnotesize Разовые}\end{sideways}}
+\put(5,0){\begin{sideways}\makebox(23,5){\footnotesize Выдачи}\end{sideways}}
+\put(0,0){\line(1,0){210}}
+\put(0,23){\line(1,0){210}}
+\multiput(10,23)(0,20){3}{\uspd@FormIIBackBlock}
+\multiput(10,93)(0,20){2}{\uspd@FormIIBackBlock}
+\multiput(10,83)(0,50){2}{\put(0,0){\makebox(24,10)[l]{\footnotesize \phantom{Ж}Абоненты}} \put(0,10){\line(1,0){200}}}
+\put(10,15){\makebox(24,8)[l]{\footnotesize \phantom{Ж}Кому}}
+\put(10,10){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Дата}}
+\put(10,5){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Кол. экз.}}
+\put(10,0){\makebox(24,5)[l]{\footnotesize \phantom{Ж}Основание}}
+\multiput(10,5)(0,5){3}{\line(1,0){200}}
+\put(0,0){\line(0,1){148}}
+\put(210,0){\line(0,1){148}}
+\put(10,0){\line(0,1){143}}
+\put(34,0){\line(0,1){143}}
+\put(0,148){\line(1,0){210}}
+\put(0,143){\line(1,0){10}}
+\multiput(34,0)(16,0){11}{\line(0,1){143}}
+}
+%-----------------------------------------------------------------------
+
+% Вывод карточек учета листа утверждения и документа
+\newcommand\uspd@DocCard[1]{{
+\thispagestyle{empty}
+
+% Карта листа утверждения (Лицо)
+\noindent\begin{picture}(150,10)(20,113)
+% Масштаб
+\scalebox{1}{
+% Форма 2а
+\uspd@FormII{}
+% Лист
+%\put(35,143){\makebox(10,5){\footnotesize 1 }}
+% Код предпр.
+\put(0,130){\makebox(25,18){\small \textbf{НПБИ}}}
+% Подл. на предпр.
+\put(75,123){\makebox(30,7){\small \textbf{НПБИ}}}
+% Подразделение
+\put(25,123){\makebox(20,7){\small \textbf{ПАСиТ}}}
+% Наименование
+\put(45,131){\parbox[b][15mm][c]{95mm}{\centering{\tiny  \@title \\ Лист увтержения}}}
+% Обозначение
+\put(140,130){\makebox(70,18){\small \textbf{#1--ЛУ}}}
+% Кол. листов
+\put(190,116){\makebox(20,7){\small \textbf{\pageref{endlu}}}}
+% Вид документа
+\put(25,116){\makebox(20,7){\small \textbf{2}}}
+% Формат
+\put(156,123){\makebox(54,7){\small \textbf{А4}}}
+% подледник/дубликат
+%\multiput(60,116)(67,0){2}{\makebox(15,7){\footnotesize подл.}}
+% Инв. №
+%\put(75,116){\makebox(30,7){\small \textbf{001150}}}
+% Дата поступл.
+%\put(140,116){\makebox(16,7){\footnotesize \textbf{21.04.16}}}
+% Имя файла
+%\put(105,123){\makebox(35,7){\footnotesize \textbf{00068-01\_30.pdf}}}
+}\end{picture}
+
+% Карта документа (Лицо)
+\noindent\begin{picture}(150,10)(20,251)
+% Масштаб
+\scalebox{1}{
+% Форма 2а
+\uspd@FormII{}
+% Лист
+%\put(35,143){\makebox(10,5){\footnotesize 1 }}
+% Код предпр.
+\put(0,130){\makebox(25,18){\small \textbf{НПБИ}}}
+% Подл. на предпр.
+\put(75,123){\makebox(30,7){\small \textbf{НПБИ}}}
+% Подразделение
+\put(25,123){\makebox(20,7){\small \textbf{ПАСиТ}}}
+% Наименование
+\put(45,131){\parbox[b][15mm][c]{95mm}{\centering{\tiny  \@title}}}
+% Обозначение
+\put(140,130){\makebox(70,18){\small \textbf{#1}}}
+% Кол. листов
+\put(190,116){\makebox(20,7){\small \textbf{\pageref{enddoc}}}}
+% Вид документа
+\put(25,116){\makebox(20,7){\small \textbf{2}}}
+% Формат
+\put(156,123){\makebox(54,7){\small \textbf{А4}}}
+% подледник/дубликат
+%\multiput(60,116)(67,0){2}{\makebox(15,7){\footnotesize подл.}}
+% Инв. №
+%\put(75,116){\makebox(30,7){\small \textbf{001150}}}
+% Дата поступл.
+%\put(140,116){\makebox(16,7){\footnotesize \textbf{21.04.16}}}
+% Имя файла
+%\put(105,123){\makebox(35,7){\footnotesize \textbf{00068-01\_30.pdf}}}
+}\end{picture}
+\newpage
+\thispagestyle{empty}
+
+% Карта листа утверждения (оборот)
+\noindent\begin{picture}(150,10)(20,113)
+% Масштаб
+\scalebox{1}{
+% Форма 2а оборот
+\uspd@FormIIBack{}
+}\end{picture}
+
+%~ % Карта документа (оборот)
+\noindent\begin{picture}(150,10)(20,251)
+% Масштаб
+\scalebox{1}{
+% Форма 2а оборот
+\uspd@FormIIBack{}
+}\end{picture}
+\newpage}}
+%-----------------------------------------------------------------------
+
+% Вывод аннотации
+% если не использовать \uspdabstract, аннотация не будет включена
+\makeatletter
+\let\@uspdabstract\relax
+\newcommand\uspdabstract[1]{\def\@uspdabstract{\section*{Аннотация} #1}}
+%-----------------------------------------------------------------------
+
+% Подавление вывода содержания
+% если не использовать, содержание будет включено в структуру документа
+\makeatletter
+\newcommand\uspdtoc{\tableofcontents\newpage}
+\let\@uspdtoc\uspdtoc
+\newcommand\uspdnotoc{\def\@uspdtoc{\relax}}
+%-----------------------------------------------------------------------
+
+% Оформление текста по ГОСТ 19.105-78 
+\newenvironment{uspd}[1]{\uspd@DocCard{#1}\sloppy\LU{#1}\TP{#1}\@uspdabstract\newpage{}\@uspdtoc}{\uspd@LI}
+\makeatother{}
+%-----------------------------------------------------------------------
+
+% Заголовок спецификации
+\newcommand{\SpecHead}{%
+\hline%
+\parbox[c][10mm]{77mm}{ \centering \textsf{\textit{Обозначение}}} &%
+\parbox[c][10mm]{67mm}{ \centering \textsf{\textit{Наиме\-нова\-ние}}} &%
+\parbox[c][10mm]{28mm}{ \centering \textsf{\textit{Примечание}}} \\%
+\hline}
+%-----------------------------------------------------------------------
+
+% Вывод спецификации
+\newenvironment{Spec}{%
+\begin{longtable}[c]{|p{77mm}|p{67mm}|p{28mm}|}
+\SpecHead
+\endfirsthead  
+\SpecHead
+\endhead  
+}{\end{longtable}}
+%-----------------------------------------------------------------------
+
+% Заголовок ведомости ЭД
+\newcommand{\OdHead}{%
+\hline%
+\parbox[c][20mm]{77mm}{ \centering \textsf{\textit{Обозначение}}} &%
+\parbox[c][20mm]{57mm}{ \centering \textsf{\textit{Наиме\-нова\-ние}}} &%
+\parbox[c][20mm]{6mm}{ \centering \textsf{\textit{\small {Кол. Экз.}}}} &%
+\parbox[c][20mm]{28mm}{ \centering \textsf{\textit{Местона\-хождение}}} \\%
+\hline}
+%-----------------------------------------------------------------------
+
+% Вывод ведомости ЭД
+\newenvironment{OD}{%
+\begin{longtable}[c]{|p{77mm}|p{57mm}|p{6mm}|p{28mm}|}
+\OdHead
+\endfirsthead  
+\OdHead
+\endhead  
+}{\end{longtable}}
+%-----------------------------------------------------------------------

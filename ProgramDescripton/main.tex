@@ -1,0 +1,35 @@
+\documentclass[a4paper,14pt]{article}
+\usepackage{extsizes}		% 14 шрифт
+\usepackage{ucs}			% Включаем поддержку UTF8
+\usepackage[utf8x]{inputenc}% Включаем поддержку UTF8
+\usepackage[russian]{babel} % Включаем пакет для поддержки русского языка
+\providecommand{\No}{№} 	% для сборки с babel >= 1.2 
+\usepackage{indentfirst}    % Начинать первый параграф с красной строки
+\setlength{\parindent}{1cm} % Отступ
+\bibliographystyle{gost780u}% стиль библиографии
+\usepackage{amstext} 		% кирилица в формулах
+\usepackage{lscape}			% альбомная ориентация листа
+\usepackage{textcomp} 		%Команды для специальных символов в текстовом режиме
+\uchyph=0					% Запрет переноса слов с прописной буквы
+\usepackage{multirow}
+\usepackage{uspd}
+\usepackage{mydoc}
+\usepackage{float}
+
+\makeindex 
+\title{\textbf{СПЕЦИАЛЬНОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ «КАМА-НАДИР»} \\Описание программы}
+%\def\year{2016}
+\uspdabstract{В документе описаны назначение СПО «Кама-Надир», средства его реализации, требования к аппаратному и программному обеспечению, 
+необходимые для устойчивой работы программы и иные смежные вопросы, имеющие первостепенное значение.
+
+В разделе \ref{logic} структура программы описана в привязке к решаемым задачам, 
+приведены полные или же упрощенные схемы алгоритмов их решения и взаимодействия между ними, 
+а также описаны массивы входных и выходных данных по каждой решаемой задаче.}
+
+\begin{document}
+\begin{uspd}{ХХХХ.ХХХХХ-ХХ~ХХ~ХХ}
+\include{purpose}
+\include{logic}
+\include{appendix}
+\end{uspd}
+\end{document}

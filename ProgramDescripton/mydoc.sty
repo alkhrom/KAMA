@@ -1,0 +1,337 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mydoc}
+
+%=======================================================================
+% Changelog
+% 2016/03/30  Добавлена возможность ссылаться на нумерацию в абзацах
+% 2016/03/31  Стиль нумерации перечислений сделан по ГОСТ 2.105
+% 2016/04/05  Доработка стилей перечислений (по ГОСТ 2.105)
+% 2016/04/05  Стиль подписей рисунков по ГОСТ 2.105
+%             Подгружаемые пакеты перемещены в начало
+% 2016/05/05  Изменен стиль нумерации 
+%             Теперь первый уровень цифрами, а второй буквами
+% 2016/06/06  Восстановлен вывод кирилицы в листинге
+%=======================================================================
+
+% Используемые пакеты
+\RequirePackage{xparse}			% анализ аргументов команды
+\RequirePackage{graphicx}		% вставка картинок
+\RequirePackage{color}			% заливка
+\RequirePackage{calc}			% вычисление размеров
+\RequirePackage{verbatim}		% для листинга
+\RequirePackage{listings}		% для вставки файлов как листинг
+\RequirePackage{fontenc}		% для вставки файлов как листинг
+\RequirePackage{inputenc}		% для вставки файлов как листинг
+\RequirePackage{placeins}		% для вставки файлов как листинг
+\RequirePackage{caption}		% подписи  в русской типографской традиции
+\RequirePackage{longtable}		% для вставки сложных таблиц
+\RequirePackage[table]{xcolor}	% заливка ячеек таблицы
+%=======================================================================
+
+% Отбивка перечисления первого уровня
+\renewcommand{\@listI}{%
+\leftmargin=15pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=20pt
+\itemindent=\parindent
+\listparindent=0pt
+\topsep=0pt plus 2pt minus 4pt
+\partopsep=2pt plus 1pt minus 1pt
+\parsep=0pt plus 1pt
+\itemsep=\parsep}
+
+% Отбивка перечисления вторго уровня
+\renewcommand{\@listii}{%
+\leftmargin=45pt
+}
+
+% Формат ананимного перечисления первого уровня
+\renewcommand{\labelitemi}{--}
+
+% Формат ананимного перечисления вторго уровня
+\renewcommand{\labelitemii}{--}
+
+% Формат перечисления первого уровня
+%\renewcommand{\theenumi}{\alph{enumi}}
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\theenumi)}
+
+% Формат перечисления вторго уровня
+%\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\labelenumii}{\theenumii)}
+
+% Нумерованный абзац в секции
+\newcounter{parcount}[section]
+\newcommand{\num}{\arabic{section}.\arabic{parcount}}
+\renewcommand{\theparcount}{\num}
+\newcommand{\numpar}{\refstepcounter{parcount} \noindent\hspace{2em}\num \hspace{1em}\setlength{\parskip}{0.3em}}
+
+% Нумерованный абзац в субсекции
+\newcounter{subparcount}[subsection]
+\newcommand{\subnum}{\arabic{section}.\arabic{subsection}.\arabic{subparcount}}
+\renewcommand{\thesubparcount}{\subnum}
+\newcommand{\numparsec}{\refstepcounter{subparcount} \noindent\hspace{2em}\subnum\hspace{1em}\setlength{\parskip}{0.3em}}
+
+% Нумерованный абзац в субсубсекции
+\newcounter{subsubparcount}[subsubsection]
+\newcommand{\subsubnum}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.\arabic{subsubparcount}}
+\renewcommand{\thesubsubparcount}{\subsubnum}
+\newcommand{\numparsubsec}{\refstepcounter{subsubparcount} \noindent\hspace{2em}\subsubnum\hspace{1em}\setlength{\parskip}{0.3em}}
+
+% Листинг
+\newenvironment{codeenv}{\verbatim}{\endverbatim}
+\newcommand{\code}[1]{<<\texttt{#1}>>}
+
+% Рисование значка следующего пункта меню
+\newcommand{\nextmenu}{$\Rightarrow$}
+
+% Команда оформления комбинации клавиш
+\newenvironment{keyenv}{\bfseries}{}
+\newcommand{\key}[1]{\begin{keyenv}#1\end{keyenv}}
+
+% Команда оформления предупреждений
+\newenvironment{warning}{\center\minipage{\textwidth - 20mm}\hrule \vspace{0.75em}\textbf{Внимание!}}{\vspace{0.75em}\hrule\endminipage \endcenter}
+
+% Команда оформления примечаний
+\newenvironment{NB}{\vspace*{1em}\underbar{Примечание}:}{\vspace*{1em}}
+
+% Подкись к библиографии
+\renewcommand\@biblabel[1]{#1.}  % вставка точки
+\addto\captionsrussian{\def\refname{Источники, использованные при разработке}}
+
+% Вставка картинки плавающим объектом с подписью и меткой
+\DeclareCaptionLabelSeparator{defffis}{ -- } % определение символа дефис
+\captionsetup{justification=centering,labelsep=defffis} % замена стандартного ':' на дефис по ГОСТ
+\newlength\imageheight
+\newlength\imagewidth{}
+\newcommand{\pic}[3]{%
+	\renewcommand{\figurename}{Рисунок} % замена стандартного 'Рис.' (Чтобы работало нужно разместьи определение после \begin{document}, поэтому оно здесь)
+	\settoheight\imageheight{\includegraphics{#1}}%
+	\settowidth\imagewidth{\includegraphics{#1}}%
+	\ifthenelse{\lengthtest{\imagewidth < \imageheight}}%
+		% портрет
+		{\ifthenelse{\lengthtest{\imageheight > \textheight}}%
+			{\begin{figure}[hb]
+				\centering\includegraphics[height=0.85\textheight]{#1}
+				\IfNoValueF {#2} { \caption{#2}}%
+				\IfNoValueF {#3} { \label{#3}}%
+			\end{figure}%
+			}%
+			{\begin{figure}[hb]
+				\centering\includegraphics{#1}
+				\IfNoValueF {#2} { \caption{#2}}%
+				\IfNoValueF {#3} { \label{#3}}%
+			\end{figure}%
+			}%
+		}%
+		% альбом
+		{\ifthenelse{\lengthtest{\imagewidth > \textwidth}}%
+			{\begin{figure}[hb]
+				\centering\includegraphics[width=0.95\textwidth]{#1}
+				\IfNoValueF {#2} { \caption{#2}}%
+				\IfNoValueF {#3} { \label{#3}}%
+			\end{figure}%
+			}%
+			{\begin{figure}[hb]
+				\centering\includegraphics{#1}
+				\IfNoValueF {#2} { \caption{#2}}%
+				\IfNoValueF {#3} { \label{#3}}%
+			\end{figure}%
+			}%
+		}%
+}
+
+
+% Вставка листинга
+\lstset{basicstyle=\ttfamily, keepspaces=true,
+literate={а}{{\selectfont\char224}}1
+{б}{{\selectfont\char225}}1
+{в}{{\selectfont\char226}}1
+{г}{{\selectfont\char227}}1
+{д}{{\selectfont\char228}}1
+{е}{{\selectfont\char229}}1
+{ё}{{\"e}}1
+{ж}{{\selectfont\char230}}1
+{з}{{\selectfont\char231}}1
+{и}{{\selectfont\char232}}1
+{й}{{\selectfont\char233}}1
+{к}{{\selectfont\char234}}1
+{л}{{\selectfont\char235}}1
+{м}{{\selectfont\char236}}1
+{н}{{\selectfont\char237}}1
+{о}{{\selectfont\char238}}1
+{п}{{\selectfont\char239}}1
+{р}{{\selectfont\char240}}1
+{с}{{\selectfont\char241}}1
+{т}{{\selectfont\char242}}1
+{у}{{\selectfont\char243}}1
+{ф}{{\selectfont\char244}}1
+{х}{{\selectfont\char245}}1
+{ц}{{\selectfont\char246}}1
+{ч}{{\selectfont\char247}}1
+{ш}{{\selectfont\char248}}1
+{щ}{{\selectfont\char249}}1
+{ъ}{{\selectfont\char250}}1
+{ы}{{\selectfont\char251}}1
+{ь}{{\selectfont\char252}}1
+{э}{{\selectfont\char253}}1
+{ю}{{\selectfont\char254}}1
+{я}{{\selectfont\char255}}1
+{А}{{\selectfont\char192}}1
+{Б}{{\selectfont\char193}}1
+{В}{{\selectfont\char194}}1
+{Г}{{\selectfont\char195}}1
+{Д}{{\selectfont\char196}}1
+{Е}{{\selectfont\char197}}1
+{Ё}{{\"E}}1
+{Ж}{{\selectfont\char198}}1
+{З}{{\selectfont\char199}}1
+{И}{{\selectfont\char200}}1
+{Й}{{\selectfont\char201}}1
+{К}{{\selectfont\char202}}1
+{Л}{{\selectfont\char203}}1
+{М}{{\selectfont\char204}}1
+{Н}{{\selectfont\char205}}1
+{О}{{\selectfont\char206}}1
+{П}{{\selectfont\char207}}1
+{Р}{{\selectfont\char208}}1
+{С}{{\selectfont\char209}}1
+{Т}{{\selectfont\char210}}1
+{У}{{\selectfont\char211}}1
+{Ф}{{\selectfont\char212}}1
+{Х}{{\selectfont\char213}}1
+{Ц}{{\selectfont\char214}}1
+{Ч}{{\selectfont\char215}}1
+{Ш}{{\selectfont\char216}}1
+{Щ}{{\selectfont\char217}}1
+{Ъ}{{\selectfont\char218}}1
+{Ы}{{\selectfont\char219}}1
+{Ь}{{\selectfont\char220}}1
+{Э}{{\selectfont\char221}}1
+{Ю}{{\selectfont\char222}}1
+{Я}{{\selectfont\char223}}1
+}
+\lst@UserCommand\lstlistingname{Листинг}
+\newcommand{\listing}[3]{\FloatBarrier\lstinputlisting[extendedchars=true,columns=fullflexible,frame=shadowbox,rulesepcolor=\color{black},caption={#2},label={#3}]{#1}}
+
+
+% Вставка сложной таблицы
+\DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
+\DeclareCaptionLabelSeparator{fill}{\hfill}
+\DeclareCaptionLabelFormat{fullparents}{\bothIfFirst{#1}{~}#2}
+\captionsetup[table]{
+     format=GOSTtable,
+     %~ font={footnotesize},
+     labelformat=fullparents,
+     labelsep=fill,
+     labelfont=it,
+     textfont=bf,
+     justification=centering,
+     singlelinecheck=false
+     }
+
+\newlength{\colI}
+\newlength{\colII}
+\newlength{\colIII}
+\newlength{\colIV}
+\newlength{\colV}
+\newlength{\colVI}
+\newlength{\colVII}
+\newlength{\colVIII}
+\newlength{\colIX}
+\newlength{\colX}
+\newlength{\colXI}
+\newlength{\colXII}
+\newlength{\colXIII}
+\newlength{\colXIV}
+\newlength{\colXV}
+
+\newcommand{\TableHead}{}
+\newcommand{\colcapi}{ caption  I }
+\newcommand{\colcapii}{ caption  II }
+\newcommand{\colcapiii}{ caption  III }
+\newcommand{\colcapiv}{ caption  IV }
+\newcommand{\colcapv}{ caption  V }
+\newcommand{\colcapvi}{ caption  VI }
+\newcommand{\colcapvii}{ caption  VII }
+\newcommand{\colcapviii}{ caption  VIII }
+\newcommand{\colcapix}{ caption  IX }
+\newcommand{\colcapx}{ caption  X }
+\newcommand{\colcapxi}{ caption  XI }
+\newcommand{\colcapxii}{ caption  XII }
+\newcommand{\colcapxiii}{ caption  XIII }
+\newcommand{\colcapxiv}{ caption  XIV }
+\newcommand{\colcapxv}{ caption  XV }
+
+\newcommand{\tabcoli}[2]{\setlength{\colI}{#1} \renewcommand{\colcapi}{ #2}}
+\newcommand{\tabcolii}[2]{\setlength{\colII}{#1} \renewcommand{\colcapii}{ #2}}
+\newcommand{\tabcoliii}[2]{\setlength{\colIII}{#1} \renewcommand{\colcapiii}{ #2}}
+\newcommand{\tabcoliv}[2]{\setlength{\colIV}{#1} \renewcommand{\colcapiv}{ #2}}
+\newcommand{\tabcolv}[2]{\setlength{\colV}{#1} \renewcommand{\colcapv}{ #2}}
+\newcommand{\tabcolvi}[2]{\setlength{\colVI}{#1} \renewcommand{\colcapvi}{ #2}}
+\newcommand{\tabcolvii}[2]{\setlength{\colVII}{#1} \renewcommand{\colcapvii}{ #2}}
+\newcommand{\tabcolviii}[2]{\setlength{\colVIII}{#1} \renewcommand{\colcapviii}{ #2}}
+\newcommand{\tabcolix}[2]{\setlength{\colIX}{#1} \renewcommand{\colcapix}{ #2}}
+\newcommand{\tabcolx}[2]{\setlength{\colX}{#1} \renewcommand{\colcapx}{ #2}}
+\newcommand{\tabcolxi}[2]{\setlength{\colXI}{#1} \renewcommand{\colcapxi}{ #2}}
+\newcommand{\tabcolxii}[2]{\setlength{\colXII}{#1} \renewcommand{\colcapxii}{ #2}}
+\newcommand{\tabcolxiii}[2]{\setlength{\colXIII}{#1} \renewcommand{\colcapxiii}{ #2}}
+\newcommand{\tabcolxiv}[2]{\setlength{\colXIV}{#1} \renewcommand{\colcapxiv}{ #2}}
+\newcommand{\tabcolxv}[2]{\setlength{\colXV}{#1} \renewcommand{\colcapxv}{ #2}}
+
+\newcommand{\capstyle}[1]{ {\vskip 2mm} \centering \small\textbf{#1} {\vskip 2mm}}
+
+\newenvironment{tab}[3]{%
+\renewcommand{\TableHead}{%
+\hline\rowcolor[gray]{0.85}  %
+\parbox[c]{\colI}{  \capstyle\colcapi } \ifthenelse{\equal{#1}{1}}{\\}{ %
+	& \parbox[c]{\colII}{  \capstyle\colcapii } \ifthenelse{\equal{#1}{2}}{\\}{ %
+		& \parbox[c]{\colIII}{  \capstyle\colcapiii } \ifthenelse{\equal{#1}{3}}{\\}{%
+			& \parbox[c]{\colIV}{  \capstyle\colcapiv } \ifthenelse{\equal{#1}{4}}{\\}{%
+				& \parbox[c]{\colV}{  \capstyle\colcapv} \ifthenelse{\equal{#1}{5}}{\\}{%
+					& \parbox[c]{\colVI}{  \capstyle\colcapvi }	\ifthenelse{\equal{#1}{6}}{\\}{%
+						& \parbox[c]{\colVII}{  \capstyle\colcapvii } \ifthenelse{\equal{#1}{7}}{\\}{%
+						& \parbox[c]{\colVIII}{  \capstyle \colcapviii  } \ifthenelse{\equal{#1}{8}}{\\}{%
+						& \parbox[c]{\colIX}{   \capstyle\colcapix } \ifthenelse{\equal{#1}{9}}{\\}{%
+						& \parbox[c]{\colX}{  \capstyle\colcapx } \ifthenelse{\equal{#1}{10}}{\\}{%
+						& \parbox[c]{\colXI}{  \capstyle\colcapxi } \ifthenelse{\equal{#1}{11}}{\\}{ %
+							& \parbox[c]{\colXII}{  \capstyle\colcapxii } \ifthenelse{\equal{#1}{12}}{\\}{ %
+								& \parbox[c]{\colXIII}{  \capstyle\colcapxiii } \ifthenelse{\equal{#1}{13}}{\\}{%
+									& \parbox[c]{\colXIV}{  \capstyle\colcapxiv } \ifthenelse{\equal{#1}{14}}{\\}{%
+										& \parbox[c]{\colXV}{  \capstyle\colcapxv} \ifthenelse{\equal{#1}{15}}{\\}{%
+				\\}}%
+						}%
+					}%
+				}%
+			}%
+		}%
+	}%
+}}}}}}}%
+\hline%
+}%
+\ifthenelse{\equal{#1}{1}} {\longtable[c]{|p{\colI}|}}{%
+\ifthenelse{\equal{#1}{2}} {\longtable[c]{|p{\colI}|p{\colII}|}}{%
+\ifthenelse{\equal{#1}{3}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|}}{%
+\ifthenelse{\equal{#1}{4}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|}}{%
+\ifthenelse{\equal{#1}{5}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|}}{%
+\ifthenelse{\equal{#1}{6}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|}}{%
+\ifthenelse{\equal{#1}{7}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|}}{%
+\ifthenelse{\equal{#1}{8}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|}}{%
+\ifthenelse{\equal{#1}{9}} {\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|}}{%
+\ifthenelse{\equal{#1}{10}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|}}{%
+\ifthenelse{\equal{#1}{11}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|p{\colXI}|}}{%
+\ifthenelse{\equal{#1}{12}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|p{\colXI}|p{\colXII}|}}{%
+\ifthenelse{\equal{#1}{13}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|p{\colXI}|p{\colXII}|p{\colXIII}|}}{%
+\ifthenelse{\equal{#1}{14}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|p{\colXI}|p{\colXII}|p{\colXIII}|p{\colXIV}|}}{%
+\ifthenelse{\equal{#1}{15}}{\longtable[c]{|p{\colI}|p{\colII}|p{\colIII}|p{\colIV}|p{\colV}|p{\colVI}|p{\colVII}|p{\colVIII}|p{\colIX}|p{\colX}|p{\colXI}|p{\colXII}|p{\colXIII}|p{\colXIV}|p{\colXV}|}}{}}}}}}}}}}}}}}}%
+\caption{#2}\label{#3} \\%
+\TableHead%
+\endfirsthead % 
+\multicolumn{#1}{r}{\slshape Продолжение таблицы \thetable} \\  
+\TableHead \endhead }
+{\endlongtable}
+
+
+
