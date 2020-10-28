@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 OCT 2020 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 OCT 2020 10:54
 entering extended mode
 **c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
 (c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
@@ -517,7 +517,7 @@ LaTeX Warning: Reference `fig:PK' on page 12 undefined on input line 92.
 File: images/PK.png Graphic file (type png)
 <use images/PK.png>
 Package pdftex.def Info: images/PK.png  used on input line 98.
-(pdftex.def)             Requested size: 409.72124pt x 888.23277pt.
+(pdftex.def)             Requested size: 358.50314pt x 777.20367pt.
 
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
@@ -529,7 +529,7 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  []
 
 [13]
-Overfull \vbox (212.4497pt too high) has occurred while \output is active []
+Overfull \vbox (101.42061pt too high) has occurred while \output is active []
 
 
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
@@ -639,7 +639,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,13n,78p,724b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (18 pages, 340343 bytes).
+Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (18 pages, 340339 bytes).
 PDF statistics:
  601 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
