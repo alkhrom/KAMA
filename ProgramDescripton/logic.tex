@@ -94,8 +94,146 @@
 интегрирования кинематического уравнения Пуассона.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{images/PK.png}
+    \includegraphics[width=0.5\linewidth]{images/PK.png}
     \caption{Задача PK}
     \label{fig:PK}
 \end{figure}
-
+\subsubsection{Входные и выходные данные задачи РК}
+Входная информация:
+\begin{itemize}
+\item qx1,qy1,qz1- из задачи  FS
+\item r0,r1,r2,r3- из задачи  PP
+\item ppk- из файла данных kam.dat
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+    \item r0,r1,r2,r3- в задачу PP
+\end{itemize}
+\subsection{Задача определения параметров ориентации PO}
+Вычисляет, согласно упрощенной схеме на Рис.~\ref{fig:PO}, курс и углы бортовой и килевой качек БИНС –kbv,  tbv,  pbv,  
+а  также скорости изменения курса и углов бортовой и килевой качек –kbvt,  tbvt,  pbvt  по  информации о компонентах кватерниона  r 
+из задачи РР,  курсовому углу опорного трехгранника АLF из  задачи IS или,  в случае режима приведения, по  углу  ALG из  задачи  OS, 
+вычисляемого методом гирошироткомпаса.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/PO_simple.png}
+    \caption{Задача PO}
+    \label{fig:PO}
+\end{figure}
+\subsubsection{Входные и выходные данные задачи РО}
+Входная информация:
+\begin{itemize}
+\item r0,r1,r2,r3- из задачи  РР
+\item pa,km0,pm0.tm0,kmk- из файла данных kam.dat
+\item alf- из задачи  IS
+\item alg- из задачи  OS
+\item pa1- из задачи  TR
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+    \item Kbv, tbv; pbv, kbvt, tbvt, pbvt,robn kbn; kbd;   tbn;  tbd;   pbn;  pbd; r0bn,   
+    r0bd ,ktbn; ktbd; ttbn; ttbd; ptbn; ptbd;-kbv, tbv; pbv, kbvt, tbvt, pbvt, robn - в задачу VI
+\end{itemize}
+\subsection{Задача преобразования скоростей PS}
+Вычисляет, согласно схеме на Рис.~\ref{fig:PS}, по  информации о приращениях  абсолютного угла поворота и кажущейся скорости  qx1, qy1, qz1, wx1, wy1, wz1 - 
+из задачи  FS  приращениях   кажущейся скорости  w1x, w1y, w1z  
+в осях связанного трехгранника путем численного интегрирования кинематического уравнения для  производной вектора абсолютной скорости V  
+во вращающихся c абсолютной  угловой скоростью $\omega$  осях.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/PS.png}
+    \caption{Задача PS}
+    \label{fig:PS}
+\end{figure}
+\subsubsection{Входные и выходные данные задачи PS}
+Входная информация:
+\begin{itemize}
+\item qx1, qy1, qz1, wx1, wy1, wz1 из задачи  FS
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+    \item w1x, w1y, w1z в задачу PV
+\end{itemize}
+\subsection{Задача перепроектирования скоростей PV}
+Перепроектирует согласно схеме на Рис.~\ref{fig:PV} приращения  кажущейся скорости БИНС  w ( w1x, w1y, w1z)  
+в осях связанного трехгранника  за время  навигационного  цикла  ТМ  на  горизонтальную плоскость аналитического  опорного трехгранника 
+с использованием кватерниона  r ( r0,  r1,  r2,  r3).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/PV.png}
+    \caption{Задача PV}
+    \label{fig:PV}
+\end{figure}
+\subsubsection{Входные и выходные данные задачи PV}
+Входная информация:
+\begin{itemize}
+\item r0,r1,r2,r3- из задачи  РP
+\item w1x,w1y,w1z- из задачи  РS 
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+\item we,wn,wv- в задачу OS
+\item wv- в задачу AP
+\end{itemize}
+\subsection{Задача выработки массива выходной информации VI}
+Реализует следующие функции согласно схеме на Рисунок 8:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/VI_simple.png}
+    \caption{Задача VI}
+    \label{fig:VI}
+\end{figure}
+\begin{itemize}
+    \item Определяет интервал времени RES  между текущим моментом и  моментом формирования экстраполяционных  коэффициентов в  задаче АР \\
+RES = ElapsedTime(T);  \ время между текущим моментом  и моментом формирования \\
+            qb1 = Res/0.1+q0;   параметров   Vbn …szbd в задаче аппроксимации, \\
+            q0 = 0;             решаемой с циклом 0.1 сек \\
+    \item Определяет   интервал времени  RES1  между текущим моментом  и  моментом формирования экстраполяционных  коэффициентов в  задаче   РO 
+RES1 = ElapsedTime(T);  \ время между текущим моментом и моментом формирования \\
+            qb2 = Res1/0.01+q0;       \ параметров  kbn   ptbd в задаче PO решаемой с циклом 0.01 сек
+    \item Осуществляет  линейную  экстраполяцию  выходных  значений  составляющих  мгновенной скорости  VEB,  VNB, VZB  и  перемещений  
+    SEB,  SNB,  SZB  c  использованием экстраполяционного сдвига q1  и  коэффициентов   линейной  экстраполяции vebn, vnbn, vzbn, sebn, snbn, szbn, 
+    vebd, vnbd, vzbd, sebd, snbd, szbd   из задачи АР
+    \item Осуществляет  линейную  экстраполяцию  выходных  значений углов  ориентации  kbv,  tbv,  pbv  и угла наклона  rob  и  
+    угловых скоростей  ориентации kbt,  tbt,  pbt c  использованием экстраполяционного сдвига   q2  и  коэффициентов   линейной 
+    экстраполяции      kbn;   kbd;   tbn;   tbd;   pbn;   pbd;    r0bn,   r0bd , ktbn;  ktbd;  ttbn;   ttbd;  ptbn;   ptbd     
+    из задачи РО   в  случае,  когдазадача VI  решается  с  большей  частотой,  чем   РО 
+    \item Осуществляет преобразование мгновенных скоростей veb, vnb, vzb и перемещений   seb, snb, szb от места установки БИНС  (т.О) 
+    до места установки потребителя (т.П) с использованием проекций (x, y, z) отстояния R1 в связанных с БИНС  осях XYZ 
+\end{itemize}
+\subsubsection{Входные и выходные данные задачи VI}
+Входная информация:    
+\begin{itemize}
+\item vebn, vnbn, sebn, snbn, vebd, vnbd, sebd, snbd, vzbn, szbn, vzbd, szbd, ta1, Fim, Lam, vep, vnp – из задачи АР
+\item kbn; kbd;   tbn;  tbd;   pbn;  pbd; r0bn,   r0bd ,ktbn; ktbd; ttbn; ttbd; ptbn; ptbd;-kbv, tbv; pbv, kbvt, tbvt, pbvt, robn– из задачи PO
+\item Kb_2 -из задачи приема информации 2 канала
+\item posn, prtr,-c  пульта оператора
+\item pff, vlm- из задачи VNP
+\item pa1, tr- из задачи TR
+\item crsm - из задачи GPSV-прием СНС
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+    \item массив mnh_out1,   содержащий выходные параметры vep, vnp, veb, vnb, vzb, seb, snb, szb, kb, tb, pb, ktb, ttb, ptb, r0b, fim, lam, crsm, vlm , 
+    a_m, b_m,  t_m, vz1,  vn1,   ve1,  sv1,  sn1,   se1   – для  каналов  манчестер и RS422
+\end{itemize}
+subsection{Задача коррекции положения опорного трехгранника РР}
+Осуществляет, согласно схеме на Рис.~\ref{fig:PP}, коррекцию  кватерниона r ,  определяющего ориентации связанного трехгранника относительно  
+аналитического опорного трехгранника с использованием  кватерниона  поворота опорного аналитического трехгранника   относительно   
+инерциального трехгранника  S  (  S1,  S2,  S3 ) за время навигационного  цикла  ТМ c  помощью  формулы кватернионного произведения.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{PP.png}
+    \caption{Задача PP}
+    \label{fig:PP}
+\end{figure}
+\subsubsection{Входные и выходные данные задачи РР}
+Входная информация:
+\begin{itemize}
+ \item r0,r1,r2,r3- из задачи  РК
+ \item omx,omy,omz - из задачи  OS
+\end{itemize}
+Выходная информация:
+\begin{itemize}
+\item r0,r1,r2,r3- в задачу PV, PO,PK
+\end{itemize}
