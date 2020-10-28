@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  27 OCT 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 OCT 2020 10:44
 entering extended mode
 **c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
 (c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
@@ -283,11 +283,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 
 
 Writing index file main.idx
-(c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6.
- ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux))
+(c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -305,6 +301,10 @@ LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 29.
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 LaTeX Font Info:    ... okay on input line 29.
  ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -337,7 +337,14 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
 ) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [1
+)
+
+LaTeX Warning: Reference `endlu' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Reference `enddoc' on page 1 undefined on input line 30.
+
+[1
 
 {C:/Users/Andrey.Hromov/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 30.
@@ -364,11 +371,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--30
  []
 
 [1] [1]
+
+LaTeX Warning: Reference `logic' on page 2 undefined on input line 30.
+
+
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[2] (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc)
+[2]
+No file main.toc.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -406,6 +418,9 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
 \openout2 = `logic.aux'.
 
  (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex
+
+LaTeX Warning: Reference `fig:general_scheme' on page 7 undefined on input line 3.
+
 <images/general_scheme.png, id=42, 924.45375pt x 1087.06125pt>
 File: images/general_scheme.png Graphic file (type png)
 <use images/general_scheme.png>
@@ -421,6 +436,9 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
 
 
 ]
+
+LaTeX Warning: Reference `fig:FS' on page 8 undefined on input line 11.
+
 <images/FS.png, id=46, 556.0775pt x 813.0375pt>
 File: images/FS.png Graphic file (type png)
 <use images/FS.png>
@@ -436,12 +454,123 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[9 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FS.png>])
+[9 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FS.png>]
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:45: Undefined control sequence.
+l.45 \subsecton
+               {Задача формирования скоростей о�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:OS' on page 10 undefined on input line 46.
+
+<images/OS_simple.png, id=53, 413.545pt x 567.11874pt>
+File: images/OS_simple.png Graphic file (type png)
+<use images/OS_simple.png>
+Package pdftex.def Info: images/OS_simple.png  used on input line 49.
+(pdftex.def)             Requested size: 409.72124pt x 561.89063pt.
+
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
 [10]
+Underfull \hbox (badness 2173) in paragraph at lines 54--58
+[]\T2A/cmr/m/n/14.4 ��������� ��-��-��� ���-����� ���-���-��� $\OML/cmm/m/it/14.4 !$ \T2A/cmr/m/n/14.4 ( omx , omy, omz ) -
+ []
+
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[11 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/OS_simple.png>] ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-3.def"
+File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uninames.dat"
+File: uninames.dat 2013/05/13 UCS: Unicode character names, compressed
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-3.def"
+File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
+)
+
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:72: Package ucs Error: Unknown Unicode character 870 = U+0366,
+(ucs)                possibly declared in uni-3.def.
+(ucs)                Type H to see if it is available with options.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...ачения 2.e-4  рад.сек  (60  ͦ
+                                                   час)  включает...
+Unicode character 870 = U+0366:
+COMBINING LATIN SMALL LETTER O
+Character is not defined in uni-*.def files.
+Enter I!<RET> to define the glyph.
+
+
+LaTeX Warning: Reference `fig:PK' on page 12 undefined on input line 92.
+
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:93: Undefined control sequence.
+\u-default-916 #1->\textDelta 
+                              
+l.93 ...�ютного угла поворота Δ
+                                                  Ԛ в проекциях �...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-5.def"
+File: uni-5.def 2013/05/13 UCS: Unicode data U+0500..U+05FF
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uninames.dat"
+File: uninames.dat 2013/05/13 UCS: Unicode character names, compressed
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-5.def"
+File: uni-5.def 2013/05/13 UCS: Unicode data U+0500..U+05FF
+)
+
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:93: Package ucs Error: Unknown Unicode character 1306 = U+051A,
+(ucs)                possibly declared in uni-5.def.
+(ucs)                Type H to see if it is available with options.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...�тного угла поворота ΔԚ
+                                                   в проекциях н�...
+Unicode character 1306 = U+051A:
+CYRILLIC CAPITAL LETTER QA
+Character is not defined in uni-*.def files.
+Enter I!<RET> to define the glyph.
+
+<images/PK.png, id=62, 556.0775pt x 1205.50375pt>
+File: images/PK.png Graphic file (type png)
+<use images/PK.png>
+Package pdftex.def Info: images/PK.png  used on input line 98.
+(pdftex.def)             Requested size: 409.72124pt x 888.23277pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[12]
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[13]
+Overfull \vbox (212.4497pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[14 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PK.png>])
 \openout2 = `appendix.aux'.
 
 
@@ -521,25 +650,32 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[11
+[15
 
 
 
 
 
-] (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux)) ) 
+] (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8220 strings out of 480202
- 125371 string characters out of 2873113
- 426399 words of memory out of 3000000
- 24640 multiletter control sequences out of 15000+200000
- 548191 words of font info for 47 fonts, out of 3000000 for 9000
+ 8939 strings out of 480202
+ 133139 string characters out of 2873113
+ 425364 words of memory out of 3000000
+ 25349 multiletter control sequences out of 15000+200000
+ 548360 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,78p,712b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk>
-Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (14 pages, 260475 bytes).
+ 72i,13n,78p,724b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (18 pages, 340510 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
+ 601 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
