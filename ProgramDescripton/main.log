@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 OCT 2020 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 OCT 2020 16:03
 entering extended mode
 **c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
 (c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
@@ -563,271 +563,14 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  []
 
 [18 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/VI_simple.png>]
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:209: Missing $ inserted.
-<inserted text> 
-                $
-l.209 \item Kb_
-               2 -–∏–∑ –∑–∞–¥–∞—á–∏ –ø—Ä–∏–µ–º–∞ –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏ 2 –∫–∞...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (92.05904pt too wide) in paragraph at lines 207--208
+[]$\OML/cmm/m/it/14.4 vebn; vnbn; sebn; snbn; vebd; vnbd; sebd; snbd; vzbn; szbn; vzbd; szbd; ta\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; Fim; Lam; vep; vnp$
+ []
 
 
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrz invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrz invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrch invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrf invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrc invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 209.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:210: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 \item
-            posn, prtr,-c  –ø—É–ª—å—Ç–∞ –æ–ø–µ—Ä–∞—Ç–æ—Ä–∞
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:210: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 \item p
-             osn, prtr,-c  –ø—É–ª—å—Ç–∞ –æ–ø–µ—Ä–∞—Ç–æ—Ä–∞
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:210: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 \item p
-             osn, prtr,-c  –ø—É–ª—å—Ç–∞ –æ–ø–µ—Ä–∞—Ç–æ—Ä–∞
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyru invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 210.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:211: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 \item
-            pff, vlm- –∏–∑ –∑–∞–¥–∞—á–∏ VNP
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:211: Missing $ inserted.
-<inserted text> 
-                $
-l.211 \item p
-             ff, vlm- –∏–∑ –∑–∞–¥–∞—á–∏ VNP
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:211: Missing } inserted.
-<inserted text> 
-                }
-l.211 \item p
-             ff, vlm- –∏–∑ –∑–∞–¥–∞—á–∏ VNP
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Á in font cmr12!
-Missing character: There is no Á in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no ‰ in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no ˜ in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no Ï in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Ì in font cmr12!
-Missing character: There is no Ù in font cmr12!
-Missing character: There is no Ó in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no Ï in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no ˆ in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no Í in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ì in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Û in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¸ in font cmr12!
-Missing character: There is no Ú in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ó in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ú in font cmr12!
-Missing character: There is no Ó in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:211: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.211 \item p
-             ff, vlm- –∏–∑ –∑–∞–¥–∞—á–∏ VNP
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Overfull \hbox (171.048pt too wide) in paragraph at lines 208--209
+[]$\OML/cmm/m/it/14.4 kbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 kbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 tbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 tbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 pbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 pbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 r\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 bn; r\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 bd; ktbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ktbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ttbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ttbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ptbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ptbd\OT1/cmr/m/n/14.4 ; \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 kbv; tbv\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 pbv; kbvt; tbvt; pbvt; robn$\T2A/cmr/m/n/14.4 
+ []
 
 c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:217: Missing $ inserted.
 <inserted text> 
@@ -918,116 +661,6 @@ LaTeX Warning: Command \cyrr invalid in math mode on input line 217.
 
 LaTeX Warning: Command \cyrery invalid in math mode on input line 217.
 
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrya invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrv invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrch invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 218.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:219: LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:219: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:219: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:219: Missing $ inserted.
-<inserted text> 
-                $
-l.219 \end{itemize}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 Missing character: There is no Ò in font cmr12!
 Missing character: There is no Ó in font cmr12!
 Missing character: There is no ‰ in font cmr12!
@@ -1055,63 +688,38 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no Ú in font cmr12!
 Missing character: There is no  in font cmr12!
 Missing character: There is no ˚ in font cmr12!
-Missing character: There is no ‰ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ˇ in font cmr12!
-Missing character: There is no Í in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ì in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no Ó in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ï in font cmr12!
-Missing character: There is no ‡ in font cmr12!
-Missing character: There is no Ì in font cmr12!
-Missing character: There is no ˜ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no Ò in font cmr12!
-Missing character: There is no Ú in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no Ë in font cmr12!
+c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:218: Missing $ inserted.
+<inserted text> 
+                $
+l.218     a_
+            m, b_m,  t_m, vz1,  vn1,   ve1,  sv1,  sn1,   se1$   ‚Äì –¥–ª—è ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 
 LaTeX Warning: Reference `fig:PP' on page 19 undefined on input line 221.
 
-
-LaTeX Warning: File `PP.png' not found on input line 226.
-
-
-c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex:226: Package pdftex.def Error: File `PP.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 ...udegraphics[width=0.75\linewidth]{PP.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 226.
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (397.37773pt too wide) in paragraph at lines 217--229
-[]\T2A/cmr/m/n/14.4 Ï‡ÒÒË‚ mnh$[]\OML/cmm/m/it/14.4 ut\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; vep; vnp; veb; vnb; vzb; seb; snb; szb; kb; tb; pb; ktb; ttb; ptb; r\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 b; fim; lam; crsm; vlm; a[]; b[]; t[]; vz\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; vn\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; ve\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; sv\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; sn\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; se\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 RS\OT1/cmr/m/n/14.4 422$
- []
-
+<images/PP.png, id=91, 350.30875pt x 614.295pt>
+File: images/PP.png Graphic file (type png)
+<use images/PP.png>
+Package pdftex.def Info: images/PP.png  used on input line 226.
+(pdftex.def)             Requested size: 384.1122pt x 673.61757pt.
 
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[19])
+[19]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[20]
+[20 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PP.png>])
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[21]
 \openout2 = `appendix.aux'.
 
 
@@ -1191,7 +799,7 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[21
+[22
 
 
 
@@ -1206,17 +814,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8545 strings out of 480202
- 129194 string characters out of 2873113
+ 8504 strings out of 480202
+ 128399 string characters out of 2873113
  425023 words of memory out of 3000000
- 24947 multiletter control sequences out of 15000+200000
- 548501 words of font info for 48 fonts, out of 3000000 for 9000
+ 24922 multiletter control sequences out of 15000+200000
+ 548191 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,78p,832b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (24 pages, 432831 bytes).
+ <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (25 pages, 446959 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
+ 655 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
