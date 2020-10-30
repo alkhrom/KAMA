@@ -1,15 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  30 OCT 2020 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  30 OCT 2020 18:09
 entering extended mode
-**C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
+**c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
+(c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/main.tex
 LaTeX2e <2020-10-01> patch level 1
-L3 programming layer <2020-10-05> xparse <2020-03-03>
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\artic
-le.cls"
+L3 programming layer <2020-10-05> xparse <2020-03-03> ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size1
-0.clo"
+("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -23,56 +19,38 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\e
-xtsizes.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extsizes.sty"
 Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 
 
 Package ExtSizes Warning: It is better to use one of the extsizes classes,
  if you can.
 
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\s
-ize14.clo"
+("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\size14.clo"
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
-))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.st
-y"
+)) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.sty"
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-gl
-obal.def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-global.def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count183
 \uc@combtoks=\toks15
 \uc@combtoksb=\toks16
 \uc@temptokena=\toks17
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\input
-enc.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.
-def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
-bel.sty"
+)) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2020/10/06 3.50 The Babel package
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
-bel.def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/10/06 3.50 Babel common definitions
 \babel@savecnt=\count184
 \U@D=\dimen139
 \l@babelnohyphens=\language83
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\tx
-tbabel.def")
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count185
@@ -80,14 +58,9 @@ tbabel.def")
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblo
-pts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russ
-ian\russianb.ldf"
+("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russian\russianb.ldf"
 File: russianb.ldf 2020/09/09 1.3k Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 
@@ -96,82 +69,50 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                A font encoding should be declared before babel.
 (babel)                Default `T2A' encoding will be loaded  on input line 74.
 
-
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t
-2aenc.def"
+("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
-))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\inde
-ntfirst.sty"
+)) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\am
-stext.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\am
-sgen.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen140
-))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\l
-scape.sty"
+)) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\g
-raphics.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\t
-rig.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
-fg\graphics.cfg"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-d
-ef\pdftex.def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textc
-omp.sty"
+))) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\m
-ultirow.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip49
 \multirow@cntb=\count186
 \multirow@dima=\skip50
 \bigstrutjot=\dimen141
-)
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\uspd.sty
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\r
-otating.sty"
+) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\uspd.sty ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\g
-raphicx.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\k
-eyval.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthe
-n.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count187
@@ -179,9 +120,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip52
 \rot@float@box=\box47
 \rot@mess@toks=\toks22
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\long
-table.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.sty"
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
@@ -198,38 +137,23 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count191
 \c@LT@chunks=\count192
 \LT@p@ftn=\toks23
-))
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\mydoc.sty
+)) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\mydoc.sty
 Package: mydoc 
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages
-/xparse\xparse.sty"
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\e
-xpl3.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty" ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
 Package: expl3 2020-10-05 L3 programming layer (loader) 
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\
-l3backend-pdftex.def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box52
 ))
 Package: xparse 2020-10-05 L3 Experimental document command parser
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages
-/xparse\xparse-generic.tex"))
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\c
-olor.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse-generic.tex")) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
-fg\color.cfg"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc
-.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count194
 \calc@Bcount=\count195
@@ -241,16 +165,12 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count196
 \calc@Cskip=\skip59
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verb
-atim.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks24
 \verbatim@line=\toks25
 \verbatim@in@stream=\read3
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
-istings.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.sty"
 \lst@mode=\count197
 \lst@gtempboxa=\box53
 \lst@token=\toks26
@@ -263,34 +183,22 @@ istings.sty"
 \lst@newlines=\count267
 \lst@lineno=\count268
 \lst@maxwidth=\dimen150
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
-stmisc.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count269
 \lst@skipnumbers=\count270
 \lst@framebox=\box54
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
-istings.cfg"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cfg"
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fonte
-nc.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\p
-laceins.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ca
-ption.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
 Package: caption 2020/09/12 v3.5b Customizing captions (AR)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ca
-ption3.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
 Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
 \captionmargin=\dimen151
 \captionmargin@=\dimen152
@@ -305,29 +213,19 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count272
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\lt
-caption.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.sty"
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xco
-lor.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
-fg\color.cfg"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\c
-olortbl.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.sty"
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\arra
-y.sty"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen158
 \ar@mcellbox=\box55
@@ -372,9 +270,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \colXIII=\skip77
 \colXIV=\skip78
 \colXV=\skip79
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\floa
-t.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count277
 \float@exts=\toks29
@@ -387,17 +283,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 
 
 Writing index file main.idx
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\main.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
-.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t
-2acmr.fd"
+(c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6.
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\purpose.aux)
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\logic.aux)
-(C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\appendix.aux))
+) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -416,15 +306,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsenc
-s.def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 LaTeX Info: Redefining \th on input line 29.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
-i\supp-pdf.mkii"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
 \scratchdimen=\dimen160
@@ -437,37 +323,25 @@ i\supp-pdf.mkii"
 \MPnumerator=\count282
 \makeMPintoPDFobject=\count283
 \everyMPtoPDFconversion=\toks32
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-p
-kg\epstopdf-base.sty"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
 \c@lstlisting=\count284
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-4.
-def"
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-4.def"
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-33
-.def"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-33.def"
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-)
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.
-def"
+) ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) [1
 
 {C:/Users/Andrey.Hromov/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-30.
-
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t
-2acmss.fd"
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 30.
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -494,7 +368,7 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[2] (C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\main.toc)
+[2] (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -504,24 +378,28 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  []
 
 [3]
-\openout2 = `purpose.aux'.
-
- (C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\purpose.tex
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[4
+[4]
+\openout2 = `purpose.aux'.
+
+ (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.tex
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[5
 
 ]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[5])
+[6])
 Underfull \hbox (badness 2970) in paragraph at lines 56--31
-[]\T2A/cmr/m/n/14.4 Код про-грам-мы на-пи-сан на язы-ках про-рам-ми-ро-ва-ния С
-++`14, С`11.
+[]\T2A/cmr/m/n/14.4 Код про-грам-мы на-пи-сан на язы-ках про-рам-ми-ро-ва-ния С++`14, С`11.
  []
 
 
@@ -529,11 +407,11 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[6]
+[7]
 \openout2 = `logic.aux'.
 
- (C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton\logic.tex
-<images/general_scheme.png, id=42, 924.45375pt x 1087.06125pt>
+ (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.tex
+<images/general_scheme.png, id=45, 924.45375pt x 1087.06125pt>
 File: images/general_scheme.png Graphic file (type png)
 <use images/general_scheme.png>
 Package pdftex.def Info: images/general_scheme.png  used on input line 6.
@@ -543,12 +421,12 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[7
+[8
 
 
 
 ]
-<images/FS.png, id=46, 556.0775pt x 813.0375pt>
+<images/FS.png, id=49, 556.0775pt x 813.0375pt>
 File: images/FS.png Graphic file (type png)
 <use images/FS.png>
 Package pdftex.def Info: images/FS.png  used on input line 14.
@@ -558,15 +436,13 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[8 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/gener
-al_scheme.png>]
+[9 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/general_scheme.png>]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[9 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FS.pn
-g>]
-<images/OS_simple.png, id=53, 413.545pt x 567.11874pt>
+[10 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FS.png>]
+<images/OS_simple.png, id=57, 413.545pt x 567.11874pt>
 File: images/OS_simple.png Graphic file (type png)
 <use images/OS_simple.png>
 Package pdftex.def Info: images/OS_simple.png  used on input line 49.
@@ -576,10 +452,9 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 2173) in paragraph at lines 54--58
-[]\T2A/cmr/m/n/14.4 Формирует уг-ло-вую ско-рость кор-рек-ции $\OML/cmm/m/it/14
-.4 !$ \T2A/cmr/m/n/14.4 ( omx , omy, omz ) -
+[]\T2A/cmr/m/n/14.4 Формирует уг-ло-вую ско-рость кор-рек-ции $\OML/cmm/m/it/14.4 !$ \T2A/cmr/m/n/14.4 ( omx , omy, omz ) -
  []
 
 
@@ -587,9 +462,8 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[11 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/OS_s
-imple.png>]
-<images/PK.png, id=62, 556.0775pt x 1205.50375pt>
+[12 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/OS_simple.png>]
+<images/PK.png, id=65, 556.0775pt x 1205.50375pt>
 File: images/PK.png Graphic file (type png)
 <use images/PK.png>
 Package pdftex.def Info: images/PK.png  used on input line 97.
@@ -599,23 +473,20 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[12]
-Overfull \hbox (6.08438pt too wide) has occurred while \output is active
- [] 
- []
-
 [13]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[14 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PK.p
-ng>]
-("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32
-.def"
+[14]
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[15 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PK.png>] ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<images/PO_simple.png, id=74, 396.48125pt x 564.1075pt>
+<images/PO_simple.png, id=77, 396.48125pt x 564.1075pt>
 File: images/PO_simple.png Graphic file (type png)
 <use images/PO_simple.png>
 Package pdftex.def Info: images/PO_simple.png  used on input line 119.
@@ -625,14 +496,13 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[15 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PO_s
-imple.png>]
-<images/PS.png, id=78, 432.61626pt x 388.45125pt>
+[16 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PO_simple.png>]
+<images/PS.png, id=82, 432.61626pt x 388.45125pt>
 File: images/PS.png Graphic file (type png)
 <use images/PS.png>
 Package pdftex.def Info: images/PS.png  used on input line 144.
 (pdftex.def)             Requested size: 256.0748pt x 229.94293pt.
-<images/PV.png, id=79, 387.4475pt x 529.98pt>
+<images/PV.png, id=83, 387.4475pt x 529.98pt>
 File: images/PV.png Graphic file (type png)
 <use images/PV.png>
 Package pdftex.def Info: images/PV.png  used on input line 163.
@@ -642,9 +512,8 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[16 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PS.p
-ng>]
-<images/VI_simple.png, id=84, 762.85pt x 403.5075pt>
+[17 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PS.png>]
+<images/VI_simple.png, id=87, 762.85pt x 403.5075pt>
 File: images/VI_simple.png Graphic file (type png)
 <use images/VI_simple.png>
 Package pdftex.def Info: images/VI_simple.png  used on input line 182.
@@ -654,8 +523,7 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[17 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PV.p
-ng>]
+[18 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PV.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 187--191
 
  []
@@ -665,188 +533,156 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[18 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/VI_s
-imple.png>]
-Overfull \hbox (92.05904pt too wide) in paragraph at lines 207--208
-[]$\OML/cmm/m/it/14.4 vebn; vnbn; sebn; snbn; vebd; vnbd; sebd; snbd; vzbn; szb
-n; vzbd; szbd; ta\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; Fim; Lam; vep; vnp$
- []
-
-
-Overfull \hbox (171.048pt too wide) in paragraph at lines 208--209
-[]$\OML/cmm/m/it/14.4 kbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 kbd\OT1/cmr/m/n
-/14.4 ; \OML/cmm/m/it/14.4 tbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 tbd\OT1/cm
-r/m/n/14.4 ; \OML/cmm/m/it/14.4 pbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 pbd\O
-T1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 r\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 bn;
- r\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 bd; ktbn\OT1/cmr/m/n/14.4 ; \OML/cmm/m/
-it/14.4 ktbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ttbn\OT1/cmr/m/n/14.4 ; \OML
-/cmm/m/it/14.4 ttbd\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ptbn\OT1/cmr/m/n/14.4
- ; \OML/cmm/m/it/14.4 ptbd\OT1/cmr/m/n/14.4 ; \OMS/cmsy/m/n/14.4  \OML/cmm/m/it
-/14.4 kbv; tbv\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 pbv; kbvt; tbvt; pbvt; rob
-n$\T2A/cmr/m/n/14.4 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.217     \item РјР°СЃСЃРёРІ mnh_
-                                 out1,   СЃРѕРґРµСЂР¶Р°С‰РёР№ РІС‹С…РѕРґРЅС‹...
-
-? 
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrzh invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrshch invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrishrt invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrv invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrery invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrh invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrery invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 217.
-
-
-LaTeX Warning: Command \cyrery invalid in math mode on input line 217.
-
-Missing character: There is no с in font cmr12!
-Missing character: There is no о in font cmr12!
-Missing character: There is no д in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no ж in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no щ in font cmr12!
-Missing character: There is no и in font cmr12!
-Missing character: There is no й in font cmr12!
-Missing character: There is no в in font cmr12!
-Missing character: There is no ы in font cmr12!
-Missing character: There is no х in font cmr12!
-Missing character: There is no о in font cmr12!
-Missing character: There is no д in font cmr12!
-Missing character: There is no н in font cmr12!
-Missing character: There is no ы in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no п in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no т in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no ы in font cmr12!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.218     a_
-            m, b_m,  t_m, vz1,  vn1,   ve1,  sv1,  sn1,   se1$   вЂ“ РґР»СЏ ...
-
-? 
-<images/PP.png, id=91, 350.30875pt x 614.295pt>
+[19 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/VI_simple.png>]
+<images/PP.png, id=94, 350.30875pt x 614.295pt>
 File: images/PP.png Graphic file (type png)
 <use images/PP.png>
-Package pdftex.def Info: images/PP.png  used on input line 226.
+Package pdftex.def Info: images/PP.png  used on input line 225.
 (pdftex.def)             Requested size: 384.1122pt x 673.61757pt.
 
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[19]
+[20]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[20 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PP.p
-ng>]
-<images/IS_simple.png, id=100, 451.6875pt x 624.3325pt>
+[21 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/PP.png>]
+<images/IS_simple.png, id=102, 451.6875pt x 624.3325pt>
 File: images/IS_simple.png Graphic file (type png)
 <use images/IS_simple.png>
-Package pdftex.def Info: images/IS_simple.png  used on input line 265.
+Package pdftex.def Info: images/IS_simple.png  used on input line 264.
 (pdftex.def)             Requested size: 384.1122pt x 530.96141pt.
 
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[21])
+[22]
 Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[22 <C:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/IS_s
-imple.png>]
+[23 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/IS_simple.png>]
+<images/ISq_simple.png, id=110, 401.5pt x 478.78876pt>
+File: images/ISq_simple.png Graphic file (type png)
+<use images/ISq_simple.png>
+Package pdftex.def Info: images/ISq_simple.png  used on input line 288.
+(pdftex.def)             Requested size: 384.1122pt x 458.08316pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[24 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/ISq_simple.png>]
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[25]
+<images/VNP_simple.png, id=117, 667.49374pt x 533.995pt>
+File: images/VNP_simple.png Graphic file (type png)
+<use images/VNP_simple.png>
+Package pdftex.def Info: images/VNP_simple.png  used on input line 331.
+(pdftex.def)             Requested size: 384.1122pt x 307.29733pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[26 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/VNP_simple.png>]
+<images/AP_simple.png, id=121, 677.53125pt x 718.685pt>
+File: images/AP_simple.png Graphic file (type png)
+<use images/AP_simple.png>
+Package pdftex.def Info: images/AP_simple.png  used on input line 373.
+(pdftex.def)             Requested size: 384.1122pt x 407.45049pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 394--396
+[]\T2A/cmr/m/n/14.4 vzbn,vebn,vnbn,vebd,vnbd,vzbd,sebn,snbn,szbn,sebd,snbd,szbd, fim, lam,
+ []
+
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[28 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/AP_simple.png>]
+<images/FK_20_simple.png, id=129, 438.63875pt x 539.01375pt>
+File: images/FK_20_simple.png Graphic file (type png)
+<use images/FK_20_simple.png>
+Package pdftex.def Info: images/FK_20_simple.png  used on input line 407.
+(pdftex.def)             Requested size: 384.1122pt x 472.02242pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[29 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FK_20_simple.png>]
+Underfull \hbox (badness 2865) in paragraph at lines 424--426
+[]\T2A/cmr/m/n/14.4 Вычисление мат-ри-цы m[i][j], яв-ля-ю-щей-ся про-из-ве-де-ни-ем пе-ре-ход-ной
+ []
+
+<images/FK_1_simple.png, id=133, 526.96875pt x 439.6425pt>
+File: images/FK_1_simple.png Graphic file (type png)
+<use images/FK_1_simple.png>
+Package pdftex.def Info: images/FK_1_simple.png  used on input line 429.
+(pdftex.def)             Requested size: 384.1122pt x 320.47346pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[30]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 452.
+ ("C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+<images/GPSV.png, id=137, 272.01625pt x 387.4475pt>
+File: images/GPSV.png Graphic file (type png)
+<use images/GPSV.png>
+Package pdftex.def Info: images/GPSV.png  used on input line 456.
+(pdftex.def)             Requested size: 384.1122pt x 547.14055pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[31 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/FK_1_simple.png>]
+<images/LOG.png, id=142, 269.005pt x 387.4475pt>
+File: images/LOG.png Graphic file (type png)
+<use images/LOG.png>
+Package pdftex.def Info: images/LOG.png  used on input line 465.
+(pdftex.def)             Requested size: 384.1122pt x 553.2417pt.
+
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[32 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/GPSV.png>])
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[33 <c:/Users/Andrey.Hromov/Documents/GitHub/KAMA/ProgramDescripton/images/LOG.png>]
 \openout2 = `appendix.aux'.
 
+ (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex)
+Overfull \hbox (6.08438pt too wide) has occurred while \output is active
+ [] 
+ []
 
-No file appendix.tex.
+[34
 
+
+
+]
 Overfull \hbox (2.26791pt too wide) in paragraph at lines 34--34
 []\T2A/cmr/m/n/12 Изм 
  []
@@ -921,48 +757,22 @@ Overfull \hbox (6.08438pt too wide) has occurred while \output is active
  [] 
  []
 
-[23
+[35
 
 
-
-
-
-] (main.aux (purpose.aux) (logic.aux) (appendix.aux)) ) 
+] (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux) (c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 8523 strings out of 480202
- 128797 string characters out of 2873113
- 426475 words of memory out of 3000000
- 24931 multiletter control sequences out of 15000+200000
- 548191 words of font info for 47 fonts, out of 3000000 for 9000
+ 8592 strings out of 480202
+ 130945 string characters out of 2873113
+ 426542 words of memory out of 3000000
+ 24988 multiletter control sequences out of 15000+200000
+ 548501 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,78p,832b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Andrey.Hromov
-\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Use
-rs\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm
-2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\
-MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromo
-v\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Us
-ers\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lar
-m1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/l
-h-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hrom
-ov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\U
-sers\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-bx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
-lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andrey
-.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (26 pages, 474709 bytes).
+ <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1728.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0600.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andrey.Hromov/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on c:/Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.pdf (38 pages, 600388 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
+ 779 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

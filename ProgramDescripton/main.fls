@@ -386,16 +386,25 @@ OUTPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.idx
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
-OUTPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1440.tfm
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\logic.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux
+OUTPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
@@ -441,6 +450,9 @@ INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lasx14
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lass1728.tfm
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm2074.tfm
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx2074.tfm
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc
 OUTPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.toc
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.tex
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.tex
@@ -546,7 +558,74 @@ INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\IS_s
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\IS_simple.png
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\IS_simple.png
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\IS_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\ISq_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\VNP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\AP_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_20_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\FK_1_simple.png
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
+INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
+INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\latt1440.tfm
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\GPSV.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\images\LOG.png
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
 OUTPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.aux
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
+INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\appendix.tex
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\main.aux
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux
 INPUT c:\Users\Andrey.Hromov\Documents\GitHub\KAMA\ProgramDescripton\purpose.aux
@@ -561,6 +640,8 @@ INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk
+INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk
+INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk
@@ -585,8 +666,6 @@ INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\Andrey.Hromov\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Andrey.Hromov\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
