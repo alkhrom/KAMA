@@ -176,7 +176,7 @@
 \item wv- в задачу AP
 \end{itemize}
 \subsection{Задача выработки массива выходной информации VI}
-Реализует следующие функции согласно схеме на Рисунок 8:
+Реализует следующие функции согласно схеме на Рис.~\ref{fig:VI}:
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{images/VI_simple.png}
@@ -204,8 +204,8 @@ RES1 = ElapsedTime(T);  \ время между текущим моментом 
 \subsubsection{Входные и выходные данные задачи VI}
 Входная информация:    
 \begin{itemize}
-\item $vebn, vnbn, sebn, snbn, vebd, vnbd, sebd, snbd, vzbn, szbn, vzbd, szbd, ta1, Fim, Lam, vep, vnp$ – из задачи АР
-\item $kbn; kbd;   tbn;  tbd;   pbn;  pbd; r0bn,   r0bd ,ktbn; ktbd; ttbn; ttbd; ptbn; ptbd;-kbv, tbv; pbv, kbvt, tbvt, pbvt, robn$– из задачи PO
+%\item $vebn, vnbn, sebn, snbn, vebd, vnbd, sebd, snbd, vzbn, szbn, vzbd, szbd, ta1, Fim, Lam, vep, vnp$ – из задачи АР
+%\item $kbn; kbd;   tbn;  tbd;   pbn;  pbd; r0bn,   r0bd ,ktbn; ktbd; ttbn; ttbd; ptbn; ptbd;-kbv, tbv; pbv, kbvt, tbvt, pbvt, robn$– из задачи PO
 \item $Kb_2$ -из задачи приема информации 2 канала
 \item $posn, prtr$-c  пульта оператора
 \item $pff, vlm$ - из задачи VNP
@@ -214,8 +214,7 @@ RES1 = ElapsedTime(T);  \ время между текущим моментом 
 \end{itemize}
 Выходная информация:
 \begin{itemize}
-    \item массив mnh_out1,   содержащий выходные параметры $vep, vnp, veb, vnb, vzb, seb, snb, szb, kb, tb, pb, ktb, ttb, ptb, r0b, fim, lam, crsm, vlm , 
-    a_m, b_m,  t_m, vz1,  vn1,   ve1,  sv1,  sn1,   se1$   – для  каналов  манчестер и RS422
+    \item массив %mnh_out1,   содержащий выходные параметры $vep, vnp, veb, vnb, vzb, seb, snb, szb, kb, tb, pb, ktb, ttb, ptb, r0b, fim, lam, crsm, vlm , a_m, b_m,  t_m, vz1,  vn1,   ve1,  sv1,  sn1,   se1$   – для  каналов  манчестер и RS422
 \end{itemize}
 \subsection{Задача коррекции положения опорного трехгранника РР}
 Осуществляет, согласно схеме на Рис.~\ref{fig:PP}, коррекцию  кватерниона r ,  определяющего ориентации связанного трехгранника относительно  
